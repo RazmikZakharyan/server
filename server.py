@@ -14,7 +14,7 @@ class Server:
 
     def set_up(self):
         self.socket.bind(
-            ("127.0.0.1", 8000)
+            ("172.18.45.123", 8000)
         )
 
         self.socket.listen(5)
